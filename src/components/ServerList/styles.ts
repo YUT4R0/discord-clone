@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Container = styled.div`
+export const Container = styled.div`
     grid-area: SL;
     display: flex;
     flex-direction: column;
@@ -14,10 +14,9 @@ const Container = styled.div`
     }
 `;
 
-const Separator = styled.div`
+export const Separator = styled.div`
     width: 2rem;
-    border: 0.8rem solid var(--quaternary);
+    border: 0.125rem solid var(--quaternary);
     margin-bottom: 0.5rem;
 `;
 
-export default Container; Separator;
